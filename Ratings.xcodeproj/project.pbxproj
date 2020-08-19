@@ -7,25 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7570AE70C2F3399AF65E3A86 /* starImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7570AF8F5AF418FD49B03F41 /* starImage.jpg */; };
 		CFF3776024ED757500404F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF3775F24ED757500404F11 /* AppDelegate.swift */; };
-		CFF3776224ED757500404F11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF3776124ED757500404F11 /* SceneDelegate.swift */; };
 		CFF3776424ED757500404F11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF3776324ED757500404F11 /* ViewController.swift */; };
-		CFF3776724ED757500404F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF3776524ED757500404F11 /* Main.storyboard */; };
-		CFF3776924ED757500404F11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF3776824ED757500404F11 /* ContentView.swift */; };
 		CFF3776B24ED757900404F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF3776A24ED757900404F11 /* Assets.xcassets */; };
 		CFF3776E24ED757900404F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF3776C24ED757900404F11 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7570AF8F5AF418FD49B03F41 /* starImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starImage.jpg; sourceTree = "<group>"; };
 		CFF3775C24ED757500404F11 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF3775F24ED757500404F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFF3776124ED757500404F11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CFF3776324ED757500404F11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CFF3776624ED757500404F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CFF3776824ED757500404F11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFF3776A24ED757900404F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFF3776D24ED757900404F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFF3776F24ED757900404F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF3777524ED75E300404F11 /* Ratings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ratings.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +55,13 @@
 		CFF3775E24ED757500404F11 /* Ratings */ = {
 			isa = PBXGroup;
 			children = (
+				CFF3777524ED75E300404F11 /* Ratings.entitlements */,
 				CFF3775F24ED757500404F11 /* AppDelegate.swift */,
-				CFF3776124ED757500404F11 /* SceneDelegate.swift */,
 				CFF3776324ED757500404F11 /* ViewController.swift */,
-				CFF3776524ED757500404F11 /* Main.storyboard */,
-				CFF3776824ED757500404F11 /* ContentView.swift */,
 				CFF3776A24ED757900404F11 /* Assets.xcassets */,
 				CFF3776C24ED757900404F11 /* LaunchScreen.storyboard */,
 				CFF3776F24ED757900404F11 /* Info.plist */,
+				7570AF8F5AF418FD49B03F41 /* starImage.jpg */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -129,7 +125,7 @@
 			files = (
 				CFF3776E24ED757900404F11 /* LaunchScreen.storyboard in Resources */,
 				CFF3776B24ED757900404F11 /* Assets.xcassets in Resources */,
-				CFF3776724ED757500404F11 /* Main.storyboard in Resources */,
+				7570AE70C2F3399AF65E3A86 /* starImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,22 +138,12 @@
 			files = (
 				CFF3776424ED757500404F11 /* ViewController.swift in Sources */,
 				CFF3776024ED757500404F11 /* AppDelegate.swift in Sources */,
-				CFF3776924ED757500404F11 /* ContentView.swift in Sources */,
-				CFF3776224ED757500404F11 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CFF3776524ED757500404F11 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFF3776624ED757500404F11 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CFF3776C24ED757900404F11 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ratings/Ratings.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CKUP7H8DC7;
 				INFOPLIST_FILE = Ratings/Info.plist;
@@ -299,8 +286,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ashwin.Ratings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -309,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ratings/Ratings.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CKUP7H8DC7;
 				INFOPLIST_FILE = Ratings/Info.plist;
@@ -318,8 +307,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ashwin.Ratings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
