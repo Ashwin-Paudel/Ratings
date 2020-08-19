@@ -31,7 +31,7 @@ class WelcomeViewController: UIViewController {
     func setUpImages() {
         imageView.backgroundColor = UIColor.blue
         imageView.heightAnchor.constraint(equalToConstant: 200).isActive = true
-		imageView.widthAnchor.constraint(equalToConstant: view.frame.width).isActive = true
+        imageView.widthAnchor.constraint(equalToConstant: view.frame.width).isActive = true
         imageView.image =  #imageLiteral(resourceName: "starImage.jpg")
     }
     func setUpLabels() {
@@ -120,10 +120,8 @@ class WelcomeViewController: UIViewController {
                        }, completion: nil)
     }
     @objc func goToFeaturesView() {
-		let vs = FeaturesViewController()
-		vs.modalPresentationStyle = .fullScreen
-		present(vs, animated: true, completion: nil)
-
-		//show(FeaturesViewController(), sender: modalTransitionStyle)
+        let featuresVC = FeaturesViewController()
+        featuresVC.modalPresentationStyle = .fullScreen
+        present(featuresVC, animated: true, completion: nil)
     }
 }
