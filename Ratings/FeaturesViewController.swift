@@ -25,7 +25,8 @@ class FeaturesViewController: UIViewController {
     func setUpLabel() {
         FeaturesLabel.widthAnchor.constraint(equalToConstant: self.view.frame.width).isActive = true
         FeaturesLabel.heightAnchor.constraint(equalToConstant: 60).isActive = true
-        FeaturesLabel.text  = "Ratings has over "
+        FeaturesLabel.text  = "Ratings has over \n 50+ product ratings"
+		FeaturesLabel.numberOfLines = 2
         FeaturesLabel.textColor = .black
         FeaturesLabel.font = .systemFont(ofSize: 32, weight: .semibold)
         FeaturesLabel.textAlignment = .center
