@@ -31,7 +31,7 @@ class WelcomeViewController: UIViewController {
     func setUpImages() {
         imageView.backgroundColor = UIColor.blue
         imageView.heightAnchor.constraint(equalToConstant: 200).isActive = true
-        imageView.widthAnchor.constraint(equalToConstant: 500).isActive = true
+		imageView.widthAnchor.constraint(equalToConstant: view.frame.width).isActive = true
         imageView.image =  #imageLiteral(resourceName: "starImage.jpg")
     }
     func setUpLabels() {
@@ -40,7 +40,7 @@ class WelcomeViewController: UIViewController {
         WelcomeLabel.heightAnchor.constraint(equalToConstant: 60).isActive = true
         WelcomeLabel.text  = "⭐ Welcome to Ratings ⭐"
         WelcomeLabel.textColor = .black
-        WelcomeLabel.font = .systemFont(ofSize: 35, weight: .semibold)
+        WelcomeLabel.font = .systemFont(ofSize: 32, weight: .semibold)
         WelcomeLabel.textAlignment = .center
         
         //Bottom Label
@@ -54,10 +54,10 @@ class WelcomeViewController: UIViewController {
     func setUpButtons() {
         // Next Button
         nextButton.widthAnchor.constraint(equalToConstant: self.view.frame.width).isActive = true
-        nextButton.heightAnchor.constraint(equalToConstant: 35).isActive = true
+        nextButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
         nextButton.setTitle("Next", for: .normal)
         nextButton.backgroundColor = .red
-        nextButton.layer.cornerRadius = 25
+        nextButton.layer.cornerRadius = 20
         nextButton.addTarget(self, action: #selector(self.goToFeaturesView), for: .touchDown)
     }
     func setUpStackViews() {
@@ -94,7 +94,7 @@ class WelcomeViewController: UIViewController {
         shapeLayer1.lineWidth = 3.0
         shapeLayer.addSublayer(shapeLayer1)
         
-        let circlePath2 = UIBezierPath(arcCenter: CGPoint(x: 125, y: 610), radius: CGFloat(20), startAngle: CGFloat(0), endAngle: CGFloat(Double.pi * 3), clockwise: true)
+        let circlePath2 = UIBezierPath(arcCenter: CGPoint(x: 50, y: 275), radius: CGFloat(20), startAngle: CGFloat(0), endAngle: CGFloat(Double.pi * 3), clockwise: true)
         let shapeLayer2 = CAShapeLayer()
         shapeLayer2.path = circlePath2.cgPath
         shapeLayer2.fillColor = UIColor.clear.cgColor
@@ -120,7 +120,10 @@ class WelcomeViewController: UIViewController {
                        }, completion: nil)
     }
     @objc func goToFeaturesView() {
-       present(FeaturesViewController(), animated: true, completion: nil)
-        self.view.isHidden = true
+		let vs = FeaturesViewController()
+		vs.modalPresentationStyle = .fullScreen
+		present(vs, animated: true, completion: nil)
+
+		//show(FeaturesViewController(), sender: modalTransitionStyle)
     }
 }
