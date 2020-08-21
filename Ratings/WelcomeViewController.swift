@@ -60,7 +60,7 @@ class WelcomeViewController: UIViewController {
         nextButton.layer.cornerRadius = 20
         nextButton.addTarget(self, action: #selector(self.transitionToNextView), for: .touchDown)
 
-
+// The first circle
         let circlePath = UIBezierPath(arcCenter: CGPoint(x: 50, y: 75), radius: CGFloat(20), startAngle: CGFloat(0), endAngle: CGFloat(Double.pi * 2), clockwise: true)
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = circlePath.cgPath
