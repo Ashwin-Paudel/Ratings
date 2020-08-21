@@ -12,7 +12,7 @@
 		CFF3776424ED757500404F11 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF3776324ED757500404F11 /* WelcomeViewController.swift */; };
 		CFF3776B24ED757900404F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF3776A24ED757900404F11 /* Assets.xcassets */; };
 		CFF3776E24ED757900404F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF3776C24ED757900404F11 /* LaunchScreen.storyboard */; };
-		F9DB409F24EDD8E7000D6387 /* FeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DB409E24EDD8E7000D6387 /* FeaturesViewController.swift */; };
+		F9DB409F24EDD8E7000D6387 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DB409E24EDD8E7000D6387 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		CFF3776D24ED757900404F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFF3776F24ED757900404F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFF3777524ED75E300404F11 /* Ratings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ratings.entitlements; sourceTree = "<group>"; };
-		F9DB409E24EDD8E7000D6387 /* FeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesViewController.swift; sourceTree = "<group>"; };
+		F9DB409E24EDD8E7000D6387 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 				CFF3777524ED75E300404F11 /* Ratings.entitlements */,
 				CFF3775F24ED757500404F11 /* AppDelegate.swift */,
 				CFF3776324ED757500404F11 /* WelcomeViewController.swift */,
-				F9DB409E24EDD8E7000D6387 /* FeaturesViewController.swift */,
+				F9DB409E24EDD8E7000D6387 /* SearchView.swift */,
 				CFF3776A24ED757900404F11 /* Assets.xcassets */,
 				CFF3776C24ED757900404F11 /* LaunchScreen.storyboard */,
 				CFF3776F24ED757900404F11 /* Info.plist */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9DB409F24EDD8E7000D6387 /* FeaturesViewController.swift in Sources */,
+				F9DB409F24EDD8E7000D6387 /* SearchView.swift in Sources */,
 				CFF3776424ED757500404F11 /* WelcomeViewController.swift in Sources */,
 				CFF3776024ED757500404F11 /* AppDelegate.swift in Sources */,
 			);
